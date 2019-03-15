@@ -43,6 +43,7 @@ print 3, "isEven?",isEven(3)
 
 print "---- PRIMES LIST ----"
 print primeList(1, 21)
+print primeList(5, 21)
 
 print "---- AREA o ----"
 print area_of_circle(1)
