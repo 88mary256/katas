@@ -1,11 +1,3 @@
-a=13
-b=2
-print "El suma de a y b es: "+ str(a+b)
-print a-b
-print a*b
-print a**b
-print a/b
-print a%b
 print "----------FUNCIONES-----------------"
 #TAREA SOBRE FUNCIONES
 

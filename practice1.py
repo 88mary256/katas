@@ -1,3 +1,11 @@
+a=13
+b=2
+print "El suma de a y b es: "+ str(a+b)
+print a-b
+print a*b
+print a**b
+print a/b
+print a%b
 
 
 print "Create a function that receive 3 arguments :"
