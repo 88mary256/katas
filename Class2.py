@@ -1,16 +1,3 @@
-'''a = 33
-b = 200
-if b > a: print (str(b) +"is greater than "+str(a))
-
-some_value = 1
-if some_value:
-   print "Got a true expression value"
-   print(some_value)
-else:
-   print "Got a false expression value"
-   print(some_value)
-'''
-
 print "-----------1-------------------"
 print "Create 1 script to determine is a number is odd or even (use single line statement if applies)"
 
