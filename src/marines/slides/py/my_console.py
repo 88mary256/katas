@@ -1,4 +1,4 @@
-def function1():
+def load_integer_array():
     size = raw_input("please set the size of the array: ")
     print(size)
     myArray = []
@@ -8,11 +8,13 @@ def function1():
     return myArray
 
 
-def function2(myArray):
+def print_array(myArray):
     print myArray
 
-def function3():
-    myArray = function1()
-    function2(myArray)
 
-function3()
+def load_and_print_array():
+    myArray = load_integer_array()
+    print_array(myArray)
+
+
+load_and_print_array()
