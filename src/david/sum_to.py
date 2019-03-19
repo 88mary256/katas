@@ -1,9 +1,9 @@
-def sum_to(n):
-    sumto=0
+def sumto(n):
+    sum=0
     for i in range(1, n+1):
-        if sumto < 46:
-            sumto += i
-    print(sumto)
+        if sum < 46:
+            sum += i
+    print(sum)
 
 
-sum_to(3)
+sumto(3)

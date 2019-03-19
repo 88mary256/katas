@@ -6,4 +6,3 @@ def days_in_month(month):
 
 
 days_in_month('November')
-

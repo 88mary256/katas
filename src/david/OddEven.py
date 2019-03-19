@@ -1,4 +1,7 @@
-def oddEven(numberX):
-    while numberX%2==0: print("even")
+def oddeven(numberx):
+    while numberx % 2 == 0:
+        print("even")
     print("odd")
-oddEven(5)
+
+
+oddeven(5)

@@ -1,8 +1,8 @@
 def urlCapture(text):
     urls = []
-    numberChars = len(text)
+    n = len(text)
     indexstart = 0
-    while numberChars >= indexstart:
+    while n >= indexstart:
         indexstart = text.find('http://', indexstart)
         if indexstart < 0:
             break
