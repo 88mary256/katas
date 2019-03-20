@@ -10,3 +10,4 @@ def expanded_form(num):
 
     return ' + '.join(result[::-1])
 
+print expanded_form(46)
