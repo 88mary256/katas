@@ -3,7 +3,7 @@ import unittest
 from examen.py.number import *
 
 
-class TestTime(unittest.TestCase):
+class TestNumber(unittest.TestCase):
     def test_factorial(self):
         self.assertEqual(factorial(0), 1)
         self.assertEqual(factorial(1), 1)
