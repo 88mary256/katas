@@ -33,3 +33,10 @@ def sum_to(n):
     for i in range(1, n + 1):
         sum += i
     return sum
+
+
+def perimeter_of_circle(r):
+    if (r > 10):
+        return 2 * r * 3.1416
+    else:
+        return "not supported"
