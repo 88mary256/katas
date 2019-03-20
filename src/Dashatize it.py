@@ -27,4 +27,4 @@ def dashatize(num):
             return char
 
 
-print dashatize(-28369)
+print dashatize(-28229)
