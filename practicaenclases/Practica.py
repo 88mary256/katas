@@ -11,7 +11,7 @@ def factorial(num):
         return Result
 
 
-print factorial(4)
+print factorial(0)
 
 print "--------------2----------------------"
 
@@ -29,7 +29,7 @@ def is_capicua(num):
         return "el numero no es capicua"
 
 
-print is_capicua(12321)
+print is_capicua(55)
 
 
 print "--------------3----------------------"
