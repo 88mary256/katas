@@ -12,7 +12,9 @@ class TestMyString(unittest.TestCase):
     def test_replace_string(self):
         self.assertEqual(replace("hi every bohidy whihats wronghi", "hi", ""), "every body whats wrong")
 
-    def test_(self):
+    def test_count_letters(self):
         self.assertEqual(countLetters("ThiS is String with Upper and lower case Letters"),
                          [('a', 2), ('c', 1), ('d', 1), ('e', 5), ('g', 1), ('h', 2), ('i', 4), ('l', 2), ('n', 2),
                           ('o', 1), ('p', 2), ('r', 4), ('s', 5), ('t', 5), ('u', 1), ('w', 2)])
+
+    def test
