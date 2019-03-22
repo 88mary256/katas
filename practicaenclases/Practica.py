@@ -47,7 +47,7 @@ def carlosbubbleSort(arr):
                 arr[j], arr[j+1] = arr[j+1], arr[j]
 
 
-arr=[(3,"Richter"),(2,"Hernando"),(1,"Carlos"),(4,"Rodriguez")]
+arr=[(3,"Richter"),(2.1,"Hernando"),(1,"Carlos"),(4,"Rodriguez")]
 
 
 print "Unsorted array is:"
