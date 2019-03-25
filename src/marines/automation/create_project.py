@@ -45,10 +45,17 @@ assert name == response_json["Content"], "Failed"
 tarea crear read update delete
 
 hacer 1 proyecto con su subproyecto y una tarea en el subprojecto
-Page Object Model
+Page Object Model: representacion abstracta de la pagina web application
 Json schema validator
-Gherkin
-Behave tool
+Gherkin: para representar un escenario del BDT,es ele lenguaje que cucumber entiende
+Behave tool nos permite correr nuestros escenarios
 
 Pivotaltracker.com 
+research cerking keywords
+leer hasta la diapositiva 20
+
+top gerkin
+steps python
+pages services python
+helpers setup python
 '''
