@@ -10,7 +10,7 @@ import requests
 endpoint = "https://todo.ly/api/projects.json"
 header = {"Content-Type": "application/json",
           "Authorization": "Basic cnJjaC5jcjhAZ21haWwuY29tOmM2NDI0NzgyUg=="}
-body = {"Content": "Testing Create Project 2"}
+body = {"Content": "Testing Create Project LUNES"}
 
 res = requests.post(url=endpoint, data=json.dumps(body), headers=header)
 
