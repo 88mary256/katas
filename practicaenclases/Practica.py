@@ -11,8 +11,6 @@ def factorial(num):
         return Result
 
 
-print factorial(0)
-
 print "--------------2----------------------"
 
 
@@ -29,9 +27,6 @@ def is_capicua(num):
         return "el numero no es capicua"
 
 
-print is_capicua(55)
-
-
 print "--------------3----------------------"
 
 def carlosbubbleSort(arr):
@@ -45,20 +40,6 @@ def carlosbubbleSort(arr):
 
             if arr[j][0] > arr[j+1][0] :
                 arr[j], arr[j+1] = arr[j+1], arr[j]
-
-
-arr=[(3,"Richter"),(2,"Hernando"),(1,"Carlos"),(4,"Rodriguez")]
-
-
-print "Unsorted array is:"
-for i in range(len(arr)):
-    print arr[i]
-
-carlosbubbleSort(arr)
-print ("Sorted array is:")
-for i in range(len(arr)):
-    print arr[i]
-
 
 
 print "--------------5----------------------"
@@ -77,7 +58,7 @@ def is_palindromo(string):
         return "la cadena no es palindromo"
 
 
-print is_palindromo("anitalavalatina")
+
 
 
 print "--------------6----------------------"
@@ -99,5 +80,4 @@ class AlumnoJALA(Persona):
 
         self.codigoAlumno = codigoAlumno
 
-a = AlumnoJALA("cod 35123456", "carlos", "ruiz", "98765")
-print a
+
