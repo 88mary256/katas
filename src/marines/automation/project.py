@@ -66,9 +66,10 @@ def delete(id):
     assert response.status_code == 200, "Failed"
     assert int(id) == int(response_json["Id"]), "Failed"
     response_get = requests.get(url=endpoint, headers=header)
-    print response_get
+    print response_get.content
     #pprint.pprint(response_get.json())
-    #assert response_get.status_code == 404, "Failed"
+    assert response_get.status_code == 200, "Failed"
+    assert response_get.content == "", "Failed"
 
 
 def main():
