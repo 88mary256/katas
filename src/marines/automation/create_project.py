@@ -2,10 +2,8 @@ import json
 import requests
 import pprint
 
-#class AutomationForTodoLy():
 
 host = "https://todo.ly/api/"
-#def create_project():
 endpoint = host + "projects.json"
 header = {"Authorization": "Basic Z2F0aXRhMDEwMS5teG1AZ21haWwuY29tOjEyMzQ1Njc4",
           "Content-Type": "application/json"}
