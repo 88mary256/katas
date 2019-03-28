@@ -4,6 +4,6 @@ Feature: This is a test
 
   Scenario: Create Todoly project
     Given I made connection
-    When I create project with data "Project1"
+    When I create project with data mi octavo gherkin
     Then The create project status is 204
     And Project Name is "Project 1"
